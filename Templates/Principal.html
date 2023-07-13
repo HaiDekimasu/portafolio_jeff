@@ -1,0 +1,23 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <body>
+        {% block content %}
+    <div >
+
+        <div >
+            {% for proyecto in principal %}
+          <div class="proyect" > 
+                <h2>{{ proyecto.title }}</h2>
+                <p>{{ proyecto.description }}</p>
+                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto">
+                <a href="{{ proyecto.url }}">Ver más</a>
+          </div>
+            {% endfor %}
+        </div>
+    </div>    
+        {% endblock content %}
+        <script src="" async defer></script>
+    </body>
+</html>

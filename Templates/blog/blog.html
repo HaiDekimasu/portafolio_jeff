@@ -1,0 +1,19 @@
+{% extends 'layout/base.html' %}
+<!DOCTYPE html>
+
+<html>
+        {% block content %}
+    <container class="contenido">
+        <div>
+            <h1>blog</h1>
+        </div>
+        <div>
+            {% for post in posts %}
+                <h1> {{post.date}}</h1>
+            {% endfor %}
+        </div>
+    </container>
+        {% endblock  %}
+        
+        <script src="" async defer></script>
+</html>

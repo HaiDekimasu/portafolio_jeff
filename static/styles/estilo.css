@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* ​
+Código CSS
+.color1 { #0b50ce };
+.color2 { #747acd };
+.color3 { #04097c };
+.color4 { #73747f };
+.color5 { #282d70 }; */
+body{
+    background-color:#000000;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #04097c;
+}
+img{
+    width: 300px;
+    padding: 10px;
+}
+
+.containernav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #0f0f0f;
+
+}
+.proyect{
+    width:400px;
+    height: auto;
+    background-color: #0f0f0f;
+    text-align: center;
+    
+}
+.proyect a{
+    padding: 100px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0f0f0f;
+    position: absolute;
+    bottom: 0;
+}

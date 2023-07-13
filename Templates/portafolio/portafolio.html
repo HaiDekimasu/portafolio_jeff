@@ -1,0 +1,21 @@
+{% extends 'layout/base.html' %}
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <body>
+        <container class="contenido">
+            <div>
+                {% block content %}
+
+                    {% for Projecto in principal %}
+                    <h1>porfolio</h1>
+                        <img src="{{Projecto.image.url}}" alt="{{Projecto.title}}">
+
+                    {% endfor %}
+                {% endblock content %}
+            </div>
+        </container>
+        <script src="" async defer></script>
+    </body>
+</html>
