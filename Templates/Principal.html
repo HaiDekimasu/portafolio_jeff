@@ -4,19 +4,16 @@
 <html>
     <body>
         {% block content %}
-    <div >
-
-        <div >
+        <div class="contenedor">
             {% for proyecto in principal %}
-          <div class="proyect" > 
+            <div class="proyect"  > 
                 <h2>{{ proyecto.title }}</h2>
                 <p>{{ proyecto.description }}</p>
-                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto">
+                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img-fluid"/>
                 <a href="{{ proyecto.url }}">Ver más</a>
-          </div>
+            </div>
             {% endfor %}
         </div>
-    </div>    
         {% endblock content %}
         <script src="" async defer></script>
     </body>
