@@ -11,7 +11,7 @@ Código CSS
 .color4 { #73747f };
 .color5 { #282d70 }; */
 body{
-    background-color:#000000;
+    background-color:#153e74a9;
     
 }
 
@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     color: #04097c;
 }
-img{
+.proyect img{
     width: 300px;
     padding: 10px;
 }
@@ -28,7 +28,7 @@ img{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #0f0f0f;
+    background-color: #452cd44d;
 }
 /*proyectos en principal*/
 
@@ -51,7 +51,16 @@ img{
 footer{
     width: 100%;
     height: 100px;
-    background-color: #0f0f0f;
+    background-color: #4127b4b0;
     position: absolute;
     bottom: 0;
 }
+
+.containerfooter {
+    text-align: right;
+}
+
+.containerfooter a {
+    margin-left: 10px; /* Puedes ajustar este valor según el espacio deseado entre las imágenes */
+}
+
