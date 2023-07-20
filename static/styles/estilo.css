@@ -46,6 +46,8 @@ a{
     padding: 10px; /* Espacio interno dentro de cada proyecto */
     box-sizing: border-box; /* Asegurar que el padding no afecte al ancho total del elemento */
     padding: 20px;
+    font-family: monospace;
+    color: white;
 }
 /*footer*/
 footer{
@@ -62,5 +64,5 @@ footer{
 
 .containerfooter a {
     margin-left: 10px; /* Puedes ajustar este valor según el espacio deseado entre las imágenes */
+    border-radius: 15%;
 }
-
