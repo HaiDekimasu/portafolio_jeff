@@ -7,10 +7,10 @@
         <div class="contenedor">
             {% for proyecto in principal %}
             <div class="proyect"  > 
-                <h2>{{ proyecto.title }}</h2>
-                <p>{{ proyecto.description }}</p>
-                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img-fluid"/>
-                <a href="{{ proyecto.url }}">Ver más</a>
+                <h2 class="title01">{{ proyecto.title }}</h2>
+                <p class="parrafo01">{{ proyecto.description }}</p>
+                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
+                <a href="{{ proyecto.url }}" class="link01">Ver más</a>
             </div>
             {% endfor %}
         </div>
