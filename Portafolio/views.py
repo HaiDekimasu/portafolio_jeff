@@ -4,11 +4,7 @@ from .models import Projecto, Presentacion
 # Create your views here.
 def vporfolio(request):
     mproject = Projecto.objects.all()
-    
-    return render(request, 'portafolio/portafolio.html', {'mproject': mproject})
+    mpresentacion = Presentacion.objects.all()
+    return render(request, 'portafolio/portafolio.html', {'mproject': mproject, 'mpresentacion': mpresentacion})
 
 
-def vpresentacion(request):
-    mpresentacion = Projecto.objects.all()
-    
-    return render(request, 'portafolio/portafolio.html', {'mpresentacion': mpresentacion})

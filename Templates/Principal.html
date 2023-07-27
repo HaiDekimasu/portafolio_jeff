@@ -5,13 +5,20 @@
     <body>
         {% block content %}
         <div class="contenedor">
+            {% for presentacion in presentacion %}
+                <div class=""  > 
+                    <img src="{{ presentacion.image.url }}" alt="Imagen del proyecto" class="img01"/>
+                    <h2 class="">{{ presentacion.title }}</h2>
+                    <p class="">{{ presentacion.description }}</p>
+                </div>
+            {% endfor %}
             {% for proyecto in principal %}
-            <div class="proyect"  > 
-                <h2 class="title01">{{ proyecto.title }}</h2>
-                <p class="parrafo01">{{ proyecto.description }}</p>
-                <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
-                <a href="{{ proyecto.url }}" class="link01">Ver más</a>
-            </div>
+                <div class="proyect"  > 
+                    <h2 class="title01">{{ proyecto.title }}</h2>
+                    <p class="parrafo01">{{ proyecto.description }}</p>
+                    <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
+                    <a href="{{ proyecto.url }}" class="link01">Ver más</a>
+                </div>
             {% endfor %}
         </div>
         {% endblock content %}

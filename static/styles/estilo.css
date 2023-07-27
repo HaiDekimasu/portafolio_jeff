@@ -9,7 +9,7 @@
     --color-primary: white ;
     --color-secondary:  #452cd44d ;
     --color-body: rgba(3, 0, 20, 0.945);
-    --fonts-main: ;
+    --fonts-main: blue;
     }
 body{
     background-color: rgba(3, 0, 20, 0.945);
