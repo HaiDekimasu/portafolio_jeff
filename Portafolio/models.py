@@ -17,6 +17,6 @@ class Presentacion(models.Model):
     description = models.CharField(max_length=250)
     id = models.AutoField(primary_key=True)
     
-
+    
     def __str__(self) -> str:
-        return self.description
+        return self.title

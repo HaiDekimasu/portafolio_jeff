@@ -5,7 +5,7 @@
     <body>
         {% block content %}
         <div class="contenedor">
-            {% for presentacion in presentacion %}
+            {% for presentacion in presentaciones %}
                 <div class=""  > 
                     <img src="{{ presentacion.image.url }}" alt="Imagen del proyecto" class="img01"/>
                     <h2 class="">{{ presentacion.title }}</h2>
