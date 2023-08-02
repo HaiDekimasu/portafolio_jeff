@@ -12,12 +12,12 @@
                     <p class="">{{ presentacion.description }}</p>
                 </div>
             {% endfor %}
-            {% for proyecto in principal %}
+            {% for projecto in projectos %}
                 <div class="proyect"  > 
-                    <h2 class="title01">{{ proyecto.title }}</h2>
-                    <p class="parrafo01">{{ proyecto.description }}</p>
-                    <img src="{{ proyecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
-                    <a href="{{ proyecto.url }}" class="link01">Ver más</a>
+                    <h2 class="title01">{{ projecto.title }}</h2>
+                    <p class="parrafo01">{{ projecto.description }}</p>
+                    <img src="{{ projecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
+                    <a href="{{ projecto.url }}" class="link01">Ver más</a>
                 </div>
             {% endfor %}
         </div>
