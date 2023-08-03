@@ -38,7 +38,12 @@ a:hover{
     background-color: #452cd44d;
 }
 /*proyectos en principal*/
-
+.imgP{
+    display: flex;
+    width: 300px;
+    height: 250px;
+    float: left;
+}
 
 .contenedor {
     display: flex;
