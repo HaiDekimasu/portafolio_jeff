@@ -6,10 +6,10 @@
         {% block content %}
         <div class="contenedor">
             {% for presentacion in presentaciones %}
-                <div class=""  > 
+                <div class="Present"  > 
                     <img src="{{ presentacion.image.url }}" alt="Imagen del presentacion" class="imgP"/>
-                    <h2 class="">{{ presentacion.title }}</h2>
-                    <p class="">{{ presentacion.description }}</p>
+                    <h2 class="parrafo01">{{ presentacion.title }}</h2>
+                    <p class="title01">{{ presentacion.description }}</p>
                 </div>
             {% endfor %}
             {% for projecto in projectos %}

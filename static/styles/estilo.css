@@ -45,6 +45,12 @@ a:hover{
     float: left;
 }
 
+.present{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
 .contenedor {
     display: flex;
     justify-content: flex-start; /* Alinear al inicio del contenedor horizontalmente */
