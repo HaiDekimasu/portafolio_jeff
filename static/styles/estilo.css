@@ -9,7 +9,7 @@
     --color-primary: white ;
     --color-secondary:  #452cd44d ;
     --color-body: rgba(3, 0, 20, 0.945);
-    --fonts-main: blue;
+    --fonts-main: #0006FA;
     }
 body{
     background-color: rgba(3, 0, 20, 0.945);
@@ -38,13 +38,10 @@ a:hover{
     background-color: #452cd44d;
 }
 /*proyectos en principal*/
-.imgP{
-    display: flex;
-    width: 300px;
-    height: 250px;
-    float: left;
-}
 
+.redesS{
+    border-radius: 50%;
+}
 .present{
     display: flex;
     width: 100%;
@@ -67,20 +64,24 @@ a:hover{
     font-family: monospace;
     color: white;
 }
-/*footer*/
+/*footer-------------------------------------------*/
 footer{
+    padding-top: 30px;
     width: 100%;
     height: 100px;
     background-color: #452cd44d ;
     position: absolute;
     bottom: 0;
 }
-
 .containerfooter {
     text-align: right;
 }
-
-.containerfooter a {
+.footercard{
+    color: white;
+}
+.redesS {
+    width: 50px;
+    height: 50px;
     margin-left: 10px; /* Puedes ajustar este valor según el espacio deseado entre las imágenes */
-    border-radius: 15%;
+    border-radius: 50%;
 }

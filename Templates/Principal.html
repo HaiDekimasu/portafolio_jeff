@@ -7,7 +7,7 @@
         <div class="contenedor">
             {% for presentacion in presentaciones %}
                 <div class="Present"  > 
-                    <img src="{{ presentacion.image.url }}" alt="Imagen del presentacion" class="imgP"/>
+                    <img src="{{ presentacion.image.url }}" style="width: 40%;"/>
                     <h2 class="parrafo01">{{ presentacion.title }}</h2>
                     <p class="title01">{{ presentacion.description }}</p>
                 </div>
@@ -16,7 +16,7 @@
                 <div class="proyect"  > 
                     <h2 class="title01">{{ projecto.title }}</h2>
                     <p class="parrafo01">{{ projecto.description }}</p>
-                    <img src="{{ projecto.image.url }}" alt="Imagen del proyecto" class="img01"/>
+                    <img src="{{ projecto.image.url }}" class="img01"/>
                     <a href="{{ projecto.url }}" class="link01">Ver más</a>
                 </div>
             {% endfor %}
