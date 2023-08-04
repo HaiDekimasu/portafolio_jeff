@@ -1,0 +1,30 @@
+footer{
+    width: 100%;
+    background-color: #452cd44d ;
+    position: absolute;
+    bottom: 0;
+    
+}
+.containerfooter {
+    text-align: right;
+}
+.footercard{
+    color: white;
+}
+.redesS {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px; /* Puedes ajustar este valor según el espacio deseado entre las imágenes */
+    border-radius: 50%;
+}
+.present{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+.imgP{
+    width: 40%;
+    height: 60%;
+    border-radius: 100%;
+}

@@ -13,7 +13,6 @@
     }
 body{
     background-color: rgba(3, 0, 20, 0.945);
-    
 }
 
 a{
@@ -33,20 +32,11 @@ a:hover{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 50px;
+    height: 100px;
 
     background-color: #452cd44d;
 }
 /*proyectos en principal*/
-
-.redesS{
-    border-radius: 50%;
-}
-.present{
-    display: flex;
-    width: 100%;
-    height: 300px;
-}
 
 .contenedor {
     display: flex;
@@ -64,24 +54,4 @@ a:hover{
     font-family: monospace;
     color: white;
 }
-/*footer-------------------------------------------*/
-footer{
-    padding-top: 30px;
-    width: 100%;
-    height: 100px;
-    background-color: #452cd44d ;
-    position: absolute;
-    bottom: 0;
-}
-.containerfooter {
-    text-align: right;
-}
-.footercard{
-    color: white;
-}
-.redesS {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px; /* Puedes ajustar este valor según el espacio deseado entre las imágenes */
-    border-radius: 50%;
-}
+
