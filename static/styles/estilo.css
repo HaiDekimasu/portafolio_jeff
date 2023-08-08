@@ -51,4 +51,18 @@ a:hover{
     font-family: monospace;
     color: white;
 }
+.Present {
+    display: flex;
+    align-items: center; 
+}
+
+.imgP {
+    max-width: 100px; 
+    margin-right: 20px; 
+}
+
+.text-container {
+    flex: 1; 
+}
+
 

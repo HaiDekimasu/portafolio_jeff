@@ -8,16 +8,19 @@
             {% for presentacion in presentaciones %}
                 <div class="Present"  > 
                     <img src="{{ presentacion.image.url }}" class="imgP"/>
-                    <h2 class="parrafo01">{{ presentacion.title }}</h2>
-                    <p class="title01">{{ presentacion.description }}</p>
+                    <div class="text-container">
+                        <h2 class="parrafo01">{{ presentacion.title }}</h2>
+                        <p class="title01">{{ presentacion.description }}</p>
+                    </div>
                 </div>
                 <div>
-                    <img src="{% static "media/portafolio/images/XHTML 01.png" %}"class="imgP">
-                    <img src="{% static "media/portafolio/images/css01.png" %}"class="imgP">
-                    <img src="{% static "media/portafolio/images/js01.png" %}"class="imgP">
-                    <img src="{% static "media/portafolio/images/Bootstrap03.png" %}"class="imgP">
-                    <img src="{% static "media/portafolio/images/python01.png" %}"class="imgP">
-                    <img src="{% static "media/portafolio/images/Django01.png" %}"class="imgP">
+                    <img src="{% static "img/html5 - tabtag.jpg" %}"class="redesS">
+                    <img src="{% static "img/CSS3 - MI PORTAL.jpg" %}"class="redesS">
+                    <img src="{% static "img/Unplugged Coding in the classroom - The Blog of Curiosity and the Hungry Mind.jpg" %}"class="redesS">
+                    <img src="{% static "img/File_Bootstrap logo_svg - Wikimedia Commons.jpg" %}"class="redesS">
+                    <img src="{% static "img/Python - MI PORTAL.jpg" %}"class="redesS">
+                    <img src="{% static "img/Django minimized logo.jpg" %}"class="redesS">
+                    <img src="{% static "img/Social Media Computer Icons GitHub Social Network PNG - Free Download.jpg" %}"class="redesS">
                 </div>
             {% endfor %}
             {% for projecto in projectos %}
