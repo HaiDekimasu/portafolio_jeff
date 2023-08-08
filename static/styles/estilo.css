@@ -30,26 +30,23 @@ a:hover{
 /*contenedor de barra nde navegacion*/
 .containernav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    height: 100px;
-
+    height: 50px;
     background-color: #452cd44d;
 }
 /*proyectos en principal*/
 
 .contenedor {
     display: flex;
-    justify-content: flex-start; /* Alinear al inicio del contenedor horizontalmente */
-    gap: 10px; /* Espacio entre los elementos */
-    flex-wrap: wrap; /* Ajustar elementos en varias líneas si no caben en una sola */
+    justify-content: flex-start;
+    gap: 10px; 
+    flex-wrap: wrap;
 }
 .proyect {
-    /* Opcional: Añade estilos para los proyectos individuales si lo deseas */
-    width: calc(33.33% - 10px); /* Asegurar que haya 3 proyectos por fila (con 10px de espacio entre ellos) */
-    margin-bottom: 10px; /* Espacio inferior entre filas */
-    padding: 10px; /* Espacio interno dentro de cada proyecto */
-    box-sizing: border-box; /* Asegurar que el padding no afecte al ancho total del elemento */
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
     padding: 20px;
     font-family: monospace;
     color: white;
