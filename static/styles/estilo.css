@@ -57,7 +57,7 @@ a:hover{
 }
 
 .imgP {
-    max-width: 100px; 
+    max-width: 200px; 
     margin-right: 20px; 
 }
 
@@ -65,4 +65,9 @@ a:hover{
     flex: 1; 
 }
 
+.title01{
+    width: 400px;
+    padding: 5%;
+    color: white;
+}
 
