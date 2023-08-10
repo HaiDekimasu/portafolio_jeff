@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*colores base___________________________________________________________________________________________*/
+
+:root{
+    --color-primary: white ;
+    --color-secondary:  #452cd44d ;
+    --color-body: rgba(3, 0, 20, 0.945);
+    --fonts-main: #0006FA;
+    }
+
+/* base general__________________________________________________________________________________________*/
+body{
+    background-color: rgba(3, 0, 20, 0.945);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* barra de navegacion_________________________________________________________*/
+
+.containernav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height:68px;
+    background-color: #452cd44d;
+}
+.link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+}
+.link2:hover{
+    background: solid;
+    background-color: black;
+    color: #2d16b4cb ;
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
+.link3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.link3:hover{
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
+
+
+/* presentacion ________________________________________________________________*/
+.containerpresent{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Present{
+    width: 70%;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.imgP{
+    width: 40%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+.title01{
+    width: 400px;
+    padding: 5%;
+    color: white;
+}
+.text-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.redesS {
+    width: 60px;
+    height: 60px;
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
+/* proyectos______________________________________________________________________________*/
+
+.containerproyect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.proyect{
+    width:300px;
+    padding: 40px;
+    color: white;
+}
+
+.img01{
+    width: 200px;
+    padding: 10px;
+}
+
+.link01{
+    list-style: none;
+}
+
+/* footer_________________________________________________________________________________________*/
+footer{
+    width: 100%;
+    height: 3rem;
+    background-color: #452cd44d ;
+    position: relative;
+    margin-top: 10px;
+    
+}
+.containerfooter {
+    text-align: right;
+}
+.footercard{
+    color: white;
+}
+

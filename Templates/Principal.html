@@ -4,33 +4,34 @@
 <html>
     <body>
         {% block content %}
-        <div class="contenedor">
             {% for presentacion in presentaciones %}
-                <div class="Present"  > 
-                    <img src="{{ presentacion.image.url }}" class="imgP"/>
-                    <div class="text-container">
-                        <h2 class="parrafo01">{{ presentacion.title }}</h2>
-                        <p class="title01">{{ presentacion.description }}</p>
-                        <div class="">
-                            <img src="{% static "img/html5 - tabtag.jpg" %}"class="redesS">
-                            <img src="{% static "img/CSS3 - MI PORTAL.jpg" %}"class="redesS">
-                            <img src="{% static "img/Unplugged Coding in the classroom - The Blog of Curiosity and the Hungry Mind.jpg" %}"class="redesS">
-                            <img src="{% static "img/File_Bootstrap logo_svg - Wikimedia Commons.jpg" %}"class="redesS">
-                            <img src="{% static "img/Python - MI PORTAL.jpg" %}"class="redesS">
-                            <img src="{% static "img/Django minimized logo.jpg" %}"class="redesS">
-                            <img src="{% static "img/Social Media Computer Icons GitHub Social Network PNG - Free Download.jpg" %}"class="redesS">
+                <div class="containerpresent">
+                    <div class="Present"  > 
+                        <img src="{{ presentacion.image.url }}" class="imgP"/>
+                        <div class="text-container">
+                            <h2 class="title01">{{ presentacion.title }}</h2>
+                            <p class="title01">{{ presentacion.description }}</p>
+                            <div class="">
+                                <img src="{% static "img/html5 - tabtag.jpg" %}"class="redesS">
+                                <img src="{% static "img/CSS3 - MI PORTAL.jpg" %}"class="redesS">
+                                <img src="{% static "img/Unplugged Coding in the classroom - The Blog of Curiosity and the Hungry Mind.jpg" %}"class="redesS">
+                                <img src="{% static "img/File_Bootstrap logo_svg - Wikimedia Commons.jpg" %}"class="redesS">
+                                <img src="{% static "img/Python - MI PORTAL.jpg" %}"class="redesS">
+                                <img src="{% static "img/Django minimized logo.jpg" %}"class="redesS">
+                                <img src="{% static "img/Social Media Computer Icons GitHub Social Network PNG - Free Download.jpg" %}"class="redesS">
+                            </div>
                         </div>
                     </div>
                 </div>
                 
             {% endfor %}
+        <div class="containerproyect">
             {% for projecto in projectos %}
-                <div class="proyect"  > 
-                    <h2 class="title01">{{ projecto.title }}</h2>
-                    <p class="parrafo01">{{ projecto.description }}</p>
-                    <img src="{{ projecto.image.url }}" class="img01"/>
-                    <a href="{{ projecto.url }}" class="link01">Ver más</a>
-                </div>
+            <div class="proyect"  > 
+                <h2 class="title01">{{ projecto.title }}</h2>
+                <p class="parrafo01">{{ projecto.description }}</p>
+                <a href="{{ projecto.url }}" class="link01"><img src="{{ projecto.image.url }}" class="img01"/></a>
+            </div>
             {% endfor %}
         </div>
         {% endblock content %}
