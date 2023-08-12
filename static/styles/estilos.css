@@ -77,7 +77,8 @@ a{
 }
 
 .imgP{
-    width: 40%;
+    padding: 50px;
+    width: 25%;
     height: 50%;
     border-radius: 50%;
 }
@@ -122,6 +123,12 @@ a{
     padding: 10px;
 }
 
+.img01:hover{
+    background: #0004fa91;
+    border: solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
 .link01{
     list-style: none;
 }
