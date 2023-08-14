@@ -113,9 +113,12 @@ a{
 
 }
 .proyect{
-    width:300px;
+    display: flex;
+    width:auto;
     padding: 40px;
     color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .img01{
