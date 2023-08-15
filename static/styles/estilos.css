@@ -11,10 +11,13 @@
     --color-body: rgba(3, 0, 20, 0.945);
     --fonts-main: #0006FA;
     }
-/*background-image: url('media/Portafolio/images/base.jpg');
+
+/*body{background-image: url('media/Portafolio/images/base.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center;*/
+    background-position: center;
+}*/
+
 /* base general__________________________________________________________________________________________*/
 body{
     background:rgba(3, 0, 20, 0.945);   
