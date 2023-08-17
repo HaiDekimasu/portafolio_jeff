@@ -121,9 +121,11 @@ a{
     border-radius: 50%;
 }
 
+.skill{
+    margin-top: 2%;
+}
 .title01{
     width: 400px;
-    padding: 5%;
     color: white;
 }
 .text-container {
