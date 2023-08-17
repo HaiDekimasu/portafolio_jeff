@@ -5,36 +5,35 @@
     <body>
         {% block content %}
             {% for presentacion in presentaciones %}
-                <div class="containerpresent">
+                <secction class="containerpresent">
                     <div class="Present"  > 
-                        <img src="{{ presentacion.image.url }}" class="imgP"/>
+                        <img class="imgP" src="{{ presentacion.image.url }}" />
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
                             <p class="title01">{{ presentacion.description }}</p>
                             <div class="skill">
-                                <img src="{% static "img/html5 - tabtag.jpg" %}"class="redesS">
-                                <img src="{% static "img/CSS3 - MI PORTAL.jpg" %}"class="redesS">
-                                <img src="{% static "img/Unplugged Coding in the classroom - The Blog of Curiosity and the Hungry Mind.jpg" %}"class="redesS">
-                                <img src="{% static "img/File_Bootstrap logo_svg - Wikimedia Commons.jpg" %}"class="redesS">
-                                <img src="{% static "img/Python - MI PORTAL.jpg" %}"class="redesS">
-                                <img src="{% static "img/Django minimized logo.jpg" %}"class="redesS">
-                                <img src="{% static "img/Social Media Computer Icons GitHub Social Network PNG - Free Download.jpg" %}"class="redesS">
+                                <img class="redesS" src="{% static "img/html5 - tabtag.jpg" %}">
+                                <img class="redesS" src="{% static "img/CSS3 - MI PORTAL.jpg" %}">
+                                <img class="redesS" src="{% static "img/Unplugged Coding in the classroom - The Blog of Curiosity and the Hungry Mind.jpg" %}">
+                                <img class="redesS" src="{% static "img/File_Bootstrap logo_svg - Wikimedia Commons.jpg" %}">
+                                <img class="redesS" src="{% static "img/Python - MI PORTAL.jpg" %}">
+                                <img class="redesS" src="{% static "img/Django minimized logo.jpg" %}">
+                                <img class="redesS" src="{% static "img/Social Media Computer Icons GitHub Social Network PNG - Free Download.jpg" %}">
                             </div>
                         </div>
                     </div>
-                </div>
-                
+                </secction>
             {% endfor %}
-        <div class="containerproyect">
-            {% for projecto in projectos %}
-            <div class="proyect"  > 
-                <a href="{{ projecto.url }}" class="link01">
-                <h2 class="title01">{{ projecto.title }}</h2>
-                <p class="parrafo01">{{ projecto.description }}</p>
-                <img src="{{ projecto.image.url }}" class="img01"/></a>
-            </div>
-            {% endfor %}
-        </div>
+                <secction class="containerproyect">
+                    {% for projecto in projectos %}
+                        <div class="proyect"> 
+                            <a class="link01" href="{{ projecto.url }}">
+                            <h2 class="title01">{{ projecto.title }}</h2>
+                            <p class="parrafo01">{{ projecto.description }}</p>
+                            <img class="img01" src="{{ projecto.image.url }}"/></a>
+                        </div>
+                    {% endfor %}
+                </secction>
         {% endblock content %}
         <script src="" async defer></script>
     </body>
