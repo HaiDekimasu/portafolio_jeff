@@ -34,8 +34,24 @@ a{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    height:68px;
+    height:4em;
     background-color: #452cd44d;
+}
+
+.link1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 34px 40px;
+    font-weight: bold;
+}
+.link1:hover{
+    background: solid;
+    background-color: black;
+    color: #2d16b4cb ;
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
 }
 .link2{
     display: flex;
@@ -53,14 +69,14 @@ a{
     border-radius: 15%;
     border-width: 1px;
 }
-.link4{
+.link3{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 12px;
     font-weight: bold;
 }
-.link4:hover{
+.link3:hover{
     background: solid;
     background-color: black;
     color: #2d16b4cb ;
@@ -69,27 +85,13 @@ a{
     border-width: 1px;
 }
 
-.link5{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 34px 40px;
-    font-weight: bold;
-}
-.link5:hover{
-    background: solid;
-    background-color: black;
-    color: #2d16b4cb ;
-    border:solid white;
-    border-radius: 15%;
-    border-width: 1px;
-}
-.link3{
+
+.link4{
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
-.link3:hover{
+.link4:hover{
     border:solid white;
     border-radius: 15%;
     border-width: 1px;
@@ -185,7 +187,7 @@ a{
     border-radius: 15%;
     border-width: 1px;
 }
-.link01{
+.link5{
     list-style: none;
 }
 
