@@ -33,9 +33,15 @@ a{
 .containernav{
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 80%;
     height:4em;
     background-color: #452cd44d;
+}
+#navredes{
+    position: relative;
+    float: inline-end;
+    justify-content: space-evenly;
+
 }
 
 .link1{
