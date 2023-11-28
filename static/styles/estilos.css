@@ -95,7 +95,7 @@ a{
     float: inline-end;
     width: 33%;
     height: 50%;
-    border-radius: 50%;
+    border-radius: 50%;     
 }
 .link4:hover{
     border:solid white;
