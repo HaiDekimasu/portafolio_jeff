@@ -136,11 +136,7 @@ a{
         font-weight: bold;
     }
 
-    .link4{
-        width: 15%;
-        height: 15%;
-        border-radius: 50%;
-    }
+    
 }
 
 
@@ -175,12 +171,6 @@ a{
             justify-content: center;
             padding: 5%;
             font-weight: bold;
-        }
-    
-        .link4{
-            width: 20%;
-            height: 20%;
-            border-radius: 50%;
         }
 
 }
@@ -219,11 +209,7 @@ a{
         font-weight: bold;
     }
 
-    .link4{
-        width: 18%;
-        height: 18%;
-        border-radius: 50%;
-    }
+    
 }
 
 
