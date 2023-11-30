@@ -9,8 +9,8 @@
                     <div class="Present"> 
                         <div>
                             {% for imgpresent in imgpresent %}
-                            <img class="imgP" src="{{ imgpresent.image.url }}"
-                            {% endfor %}>
+                                <img src="{{ imgpresent.imagen.url }}" alt="{{ imgpresent.title }}">
+                            {% endfor %}
                         </div>
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
