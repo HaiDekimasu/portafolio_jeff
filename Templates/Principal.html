@@ -9,9 +9,9 @@
                     <div class="Present"> 
                         <div>
                             {% for img in imgs %}
-                            <div>
-                                <img src="{{imgs.image.url}}">
-                            </div>
+                                <div class="imgP">
+                                    <img src="{{ img.image.url }}" >
+                                </div>
                             {% endfor %}
                         </div>
                         
