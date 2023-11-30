@@ -11,7 +11,7 @@ def home(request):
     imgs = Imgpresent.objects.all()
 
     # Establecer el intervalo
-    if imgs.count() > 1:
+    if hasattr(Imgpresent._meta, 'get_field') and 'interval' in Imgpresent._meta.get_field_names():
         imgs.update(interval=3000)
 
     return render(request, 'Principal.html', {'imgs': imgs})
