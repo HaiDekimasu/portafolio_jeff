@@ -23,6 +23,6 @@ class Presentacion(models.Model):
     
     
 class Imgpresent(models.Model):
-    imagen = models.ImageField(upload_to='media/Portafolio/images')
+    imagen = models.ImageField(upload_to='Portafolio/images')
     title = models.CharField( max_length=100)
     id = models.AutoField(primary_key=True)
