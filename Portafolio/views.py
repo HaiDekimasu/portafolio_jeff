@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Projecto, Presentacion
+from .models import Projecto, Presentacion,Imgpresent
 
 # Create your views here.
 def vporfolio(request):
@@ -9,5 +9,5 @@ def vporfolio(request):
 
 
 def imgpresent(request):
-    
-    return render(request, 'Principal.html',{'imgpresent' :imgpresent})
+    imgpresent = Imgpresent.objects.all() 
+    return render(request, 'Principal.html',{'imgpresent': imgpresent})
