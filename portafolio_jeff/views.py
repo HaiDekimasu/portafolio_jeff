@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from Portafolio.models import Projecto, Presentacion, Imgpresent
+from django.core.exceptions import FieldDoesNotExist
 
 def home(request, Projecto_id=None):
     projectos = Projecto.objects.all()
@@ -9,9 +10,5 @@ def home(request, Projecto_id=None):
 def home(request):
     # Obtener las imágenes
     imgs = Imgpresent.objects.all()
-
-    # Establecer el intervalo
-    if hasattr(Imgpresent._meta, 'get_field') and 'interval' in Imgpresent._meta.get_field_names():
-        imgs.update(interval=3000)
 
     return render(request, 'Principal.html', {'imgs': imgs})

@@ -7,17 +7,15 @@
             {% for presentacion in presentaciones %}
                 <secction class="containerpresent">
                     <div class="Present"> 
-                        <div class="container">
+                        {% for img in imgs %}
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                    {% for img in imgs %}
-                                        <div class="carousel-item {{ forloop.counter == 1 and 'active' }}">
-                                            <img src="{{ img.imagen.url }}" class="d-block w-100" alt="{{ img.title }}">
-                                        </div>
-                                    {% endfor %}
+                                    <div class="carousel-item {% if forloop.counter == 1 %}active{% endif %}">
+                                        <img src="{{ img.imagen.url }}" class="" alt="{{ img.title }}">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        {% endfor %}
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
                             <p class="title01">{{ presentacion.description }}</p>
@@ -45,6 +43,12 @@
                     {% endfor %}
                 </secction>
         {% endblock content %}
-        <script src="" async defer></script>
+        <script>
+            $(document).ready(function() {
+                $('#carouselExampleSlidesOnly').carousel({
+                interval: 3000 // Set the interval to 3 seconds (3000 milliseconds)
+                });
+            });
+        </script>
     </body>
 </html>
