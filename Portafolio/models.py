@@ -29,4 +29,4 @@ class Imgpresent(models.Model):
     
     
     def __str__(self) -> str:
-        return self.imagen
+        return self.title
