@@ -3,7 +3,11 @@ from Portafolio.models import Projecto, Presentacion, Imgpresent
 
 def home(request, Projecto_id=None):
     projectos = Projecto.objects.all()
-    presentaciones = Presentacion.objects.all()
-    imgs = Imgpresent.objects.all() 
+    presentaciones = Presentacion.objects.all() 
+    # Obtener las imágenes
+    imgs = Imgpresent.objects.all()
+    # Establecer el intervalo
+    if imgs.count() > 1:
+        imgs.update(interval=3000)
     return render(request, 'Principal.html', {'projectos': projectos, 'presentaciones': presentaciones,'imgs': imgs})
-#reectucturar las vistas segun la url esta urel mo esta siendo usada por ahora
+
