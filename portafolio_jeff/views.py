@@ -7,5 +7,3 @@ def home(request, Projecto_id=None):
     imgs = Imgpresent.objects.all() 
     return render(request, 'Principal.html', {'projectos': projectos, 'presentaciones': presentaciones,'imgs': imgs})
 #reectucturar las vistas segun la url esta urel mo esta siendo usada por ahora
-
-
