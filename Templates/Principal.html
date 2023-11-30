@@ -7,11 +7,11 @@
             {% for presentacion in presentaciones %}
                 <secction class="containerpresent">
                     <div class="Present"> 
-                        {% for img in img %}
                         <div>
-                            <img class="" src="{{ img.image.url }}"/>
-                        </div>
-                        {% endfor %}
+                            {% for img in imgs %}
+                              <img src="{{ img.imagen.url }}" alt="{{ img.title }}">
+                            {% endfor %}
+                          </div>
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
                             <p class="title01">{{ presentacion.description }}</p>
