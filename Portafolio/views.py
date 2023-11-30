@@ -5,7 +5,6 @@ from .models import Projecto, Presentacion,Imgpresent
 def vporfolio(request):
     proyecto = Projecto.objects.all()
     presentaciones = Presentacion.objects.all()
-    imgs = Imgpresent.objects.all() 
-    return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones,'img': imgs})
+    return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones})
 
 

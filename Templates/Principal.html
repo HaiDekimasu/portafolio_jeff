@@ -8,10 +8,10 @@
                 <secction class="containerpresent">
                     <div class="Present"> 
                         <div>
-                            {% for img in imgs %}
-                                <div class="imgP">
-                                    <img src="{{ img.image.url }}" >
-                                </div>
+                            {% for img in imgpresents.all %}
+                            <div>
+                                <img src="{{ img.imagen.url }}" alt="{{ img.title }}">
+                            </div>
                             {% endfor %}
                         </div>
                         
