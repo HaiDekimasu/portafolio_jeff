@@ -23,9 +23,9 @@ class Presentacion(models.Model):
     
     
 class Imgpresent(models.Model):
-    imagen = models.ForeignKey(Presentacion, on_delete=models.CASCADE)
-    title = models.CharField(max_length=100)
+    imagen = models.ImageField(upload_to='Portafolio/images')
+    title = models.CharField( max_length=100)
     id = models.AutoField(primary_key=True)
-
+    
     def __str__(self)-> str:
-        return self.imagen.title
+        return self.title
