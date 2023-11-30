@@ -8,3 +8,6 @@ def vporfolio(request):
     return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones})
 
 
+def imgpresent(request):
+    
+    return render(request, 'Principal.html',{'imgpresent' :imgpresent})
