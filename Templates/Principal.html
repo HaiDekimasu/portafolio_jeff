@@ -7,14 +7,15 @@
             {% for presentacion in presentaciones %}
                 <secction class="containerpresent">
                     <div class="Present"> 
-                        <div>
-                            {% for img in imgs.all %}
-                            <div >
-                                <img class="imgP" src="{{ img.imagen.url }}">
+                        <div class="carousel">
+                            <div class="carousel-inner">
+                                {% for img in imgs %}
+                                    <div class="carousel-item active">
+                                        <img src="{{ img.imagen.url }}" alt="{{ img.title }}">
+                                    </div>
+                                {% endfor %}
                             </div>
-                            {% endfor %}
                         </div>
-                        
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
                             <p class="title01">{{ presentacion.description }}</p>
@@ -42,12 +43,15 @@
                     {% endfor %}
                 </secction>
         {% endblock content %}
-        <script>
-            $(document).ready(function() {
-                $('#carouselExampleSlidesOnly').carousel({
-                interval: 3000 // Set the interval to 3 seconds (3000 milliseconds)
+            <script>
+                $(document).ready(function() {
+                  // Inicializa el carrusel
+                    $('.carousel').carousel({
+                    interval: 3000,
+                    wrap: true,
+                    autoplay: true,
+                    });
                 });
-            });
-        </script>
+            </script>
     </body>
 </html>
