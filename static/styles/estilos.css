@@ -113,10 +113,9 @@ a{
 }
 /* carrusel____________________________________________________________________*/
 .carousel-inner{
-    transition: 0.5s;
     padding: 50px;
-    width: 25%;
-    height: 50%;
+    width: 70%;
+    height: 80%;
     border-radius: 50%;
 }
 
