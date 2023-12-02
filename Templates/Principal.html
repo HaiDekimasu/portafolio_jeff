@@ -6,14 +6,21 @@
         {% block content %}
             {% for presentacion in presentaciones %}
                 <secction class="containerpresent">
-                    <div class="Present"> 
+                    <div class="Present">
                         <div class="carousel">
-                            <div class="carousel-inner">
-                                {% for img in imgs %}
-                                    <div class="carousel-item active">
-                                        <img class"imgP" src="{{ img.imagen.url }}" alt="{{ img.title }}">
-                                    </div>
-                                {% endfor %}
+                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="1" ></li>
+                                    <li data-target="#carouselExampleCaptions" data-slide-to="2" ></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    {% for img in imgs %}
+                                        <div class="carousel-item {% if forloop.counter0 == 0 %} active {% endif %}">
+                                            <img class"imgP" src="{{ img.imagen.url }}" >
+                                        </div>
+                                    {% endfor %}
+                                </div>
                             </div>
                         </div>
                         <div class="text-container">
@@ -43,15 +50,5 @@
                     {% endfor %}
                 </secction>
         {% endblock content %}
-            <script>
-                $(document).ready(function() {
-                  // Inicializa el carrusel
-                    $('.carousel').carousel({
-                    interval: 3000,
-                    wrap: true,
-                    autoplay: true,
-                    });
-                });
-            </script>
     </body>
 </html>
