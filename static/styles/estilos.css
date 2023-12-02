@@ -112,7 +112,7 @@ a{
     border-width: 1px;
 }
 /* carrusel____________________________________________________________________*/
-.carousel-inner{
+/*.carousel-inner{
     transition: 0.5s;
     padding: 50px;
     width: 25%;

@@ -7,12 +7,12 @@
             {% for presentacion in presentaciones %}
                 <secction class="containerpresent">
                     <div class="Present">
-                        <div class="carousel">                               
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                                    <div class="carousel-inner">
+                        <div class="carousel">
+                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
                                     {% for img in imgs %}
-                                        <div class="carousel-item {% if image.id == 1 %}active{% endif %}">
-                                            <img src="{{ image.imagen.url }}" class="d-block w-100">
+                                        <div class="carousel-item {% if image.id == 1 %} active {% endif %}">
+                                            <img src="{{ img.imagen.url }}" class="d-block w-100" alt="{{ image.title }}">
                                         </div>
                                     {% endfor %}
                                 </div>
