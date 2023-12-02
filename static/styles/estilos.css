@@ -112,7 +112,7 @@ a{
     border-width: 1px;
 }
 /* carrusel____________________________________________________________________*/
-/*.carousel-inner{
+.carousel-inner{
     transition: 0.5s;
     padding: 50px;
     width: 25%;
@@ -142,12 +142,12 @@ a{
     
 }
 
-.imgP{
+/*.imgP{
     padding: 50px;
     width: 25%;
     height: 50%;
     border-radius: 50%;
-}
+}*/
 
 .skill{
     margin-top: 2%;
