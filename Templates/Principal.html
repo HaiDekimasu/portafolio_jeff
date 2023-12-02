@@ -11,8 +11,9 @@
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     {% for img in imgs %}
-                                        <div class="carousel-item {% if image.id == 1 %} active {% endif %}">
-                                            <img src="{{ img.imagen.url }}" class="d-block w-100" alt="{{ image.title }}">
+                                    {% assign image_id = img.id %}
+                                        <div class="carousel-item {% if img.id == 1 %} active {% endif %}">
+                                            <img src="{{ img.imagen.url }}" class="d-block w-100" alt="{{ img.title }}">
                                         </div>
                                     {% endfor %}
                                 </div>
