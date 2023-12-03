@@ -114,8 +114,8 @@ a{
 /* carrusel____________________________________________________________________*/
 .carousel-inner{
     padding: 0;
-    width: 25%;
-    height: 50%;
+    width: 50%;
+    height: 80%;
     border-radius: 50%;
 }
 
@@ -134,19 +134,19 @@ a{
 
 .Present{
     width: 70%;
-    height: -webkit-fill-available;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center; 
     
 }
 
-.imgP{
+/* .imgP{
     padding: 50px;
     width: 25%;
     height: 50%;
     border-radius: 50%;
-}
+} */
 
 .skill{
     margin-top: 2%;
