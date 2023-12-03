@@ -12,7 +12,7 @@
                                 <div class="carousel-inner">
                                     {% for img in imgs %}
                                         <div class="carousel-item {% if img.id == 1 %} active {% endif %}">
-                                            <img src="{{ img.imagen.url }}" class="d-block w-100 carousel-img" alt="{{ img.title }}">
+                                            <img src="{{ img.imagen.url }}" class="d-block w-100">
                                         </div>
                                     {% endfor %}
                                 </div>
