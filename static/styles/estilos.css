@@ -46,6 +46,9 @@ a{
 
 }
 .fuller-button {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
 	color: rgba(255,255,255,1);
 	background: none;
 	border-radius: 0;
