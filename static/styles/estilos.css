@@ -50,7 +50,7 @@ a{
 
 /* botones________________________________________________________________________________________________ */
 .frame {
-    margin: 40px auto;
+    margin: 0 auto;
     text-align: center;
 }
 button {
@@ -139,28 +139,30 @@ button {
 /* presentacion ________________________________________________________________*/
 .containerpresent{
     width: 100%;
-    height:600px;
+    height:40rem;
     align-items: center;
     display: flex;
     justify-content: center;
 }
 
 .Present{
-    width: 70%;
-    height: 80%;
+    width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center; 
     
 }
 
-.imgP{
-    padding: 50px;
-    width: 25%;
-    height: 50%;
-    border-radius: 50%;
-}
 
+.text-container {
+    
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
 .skill{
     margin-top: 2%;
 }
@@ -169,14 +171,7 @@ button {
     padding: 1%;
     color: white;
 }
-.text-container {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
+
 .redesS {
     width: 60px;
     height: 60px;
