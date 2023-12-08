@@ -120,7 +120,7 @@ button {
     margin-block: 2%;
     float: inline-end;
     width: 20%;
-    height: 75%;
+    height: 70%;
     border-radius: 50%;     
 }
 .tik:hover{
@@ -133,7 +133,7 @@ button {
     margin-block: 2%;
     float: inline-end;
     width: 20%;
-    height: 75%;
+    height: 80%;
     border-radius: 50%;     
 }
 .you:hover{
@@ -143,10 +143,10 @@ button {
     border-width: 1px;
 }
 .kedin{
-    margin-block: 2%;
+    margin-block: 3%;
     float: inline-end;
     width: 20%;
-    height: 75%;
+    height: 60%;
     border-radius: 50%;     
 }
 .kedin:hover{
