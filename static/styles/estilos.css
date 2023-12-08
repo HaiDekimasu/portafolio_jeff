@@ -124,10 +124,21 @@ button {
     border-radius: 50%;     
 }
 .link4:hover{
-    
+    opacity: .7;
     border:solid white;
     border-radius: 15%;
     border-width: 1px;
+}
+.link4:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
 }
 /* carrusel____________________________________________________________________*/
 
