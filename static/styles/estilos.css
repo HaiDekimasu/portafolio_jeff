@@ -116,20 +116,45 @@ button {
     100% { -webkit-transform: scale(50) rotate(45deg); opacity: 0; }
 }
 
-.link4{
-    margin-block: 1%;
+.tik{
+    margin-block: 2%;
     float: inline-end;
     width: 20%;
-    height: 80%;
+    height: 75%;
     border-radius: 50%;     
 }
-.link4:hover{
+.tik:hover{
     
     border:solid white;
     border-radius: 15%;
     border-width: 1px;
 }
-
+.you{
+    margin-block: 2%;
+    float: inline-end;
+    width: 20%;
+    height: 75%;
+    border-radius: 50%;     
+}
+.you:hover{
+    
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
+.kedin{
+    margin-block: 2%;
+    float: inline-end;
+    width: 20%;
+    height: 75%;
+    border-radius: 50%;     
+}
+.kedin:hover{
+    
+    border:solid white;
+    border-radius: 15%;
+    border-width: 1px;
+}
 
 /* carrusel____________________________________________________________________*/
 
