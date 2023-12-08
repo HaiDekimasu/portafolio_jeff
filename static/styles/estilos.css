@@ -143,6 +143,9 @@ button {
     justify-content: center;
     align-items: center;
 }
+.carousel-item {
+    transition-duration: 0.2s;
+}
 
 /* presentacion ________________________________________________________________*/
 .containerpresent{
