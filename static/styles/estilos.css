@@ -124,10 +124,10 @@ button {
     border-radius: 50%;     
 }
 .tik:hover{
-    
-    border:solid white;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.089);
     border-radius: 15%;
-    border-width: 1px;
+    
 }
 .you{
     margin-block: 2%;
@@ -137,10 +137,9 @@ button {
     border-radius: 50%;     
 }
 .you:hover{
-    
-    border:solid white;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.089);
     border-radius: 15%;
-    border-width: 1px;
 }
 .kedin{
     margin-block: 3%;
@@ -150,10 +149,10 @@ button {
     border-radius: 50%;     
 }
 .kedin:hover{
-    
-    border:solid white;
+    height: 80%;
+    background: rgba(255, 255, 255, 0.089);
     border-radius: 15%;
-    border-width: 1px;
+    
 }
 
 /* carrusel____________________________________________________________________*/
