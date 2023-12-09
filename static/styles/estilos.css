@@ -241,7 +241,7 @@ button {
 .parrafo01{
     width: 80%;
     height: auto;
-    display: block;
+    display: inline-flex;
     position: relative;
     align-items: center;
     justify-content: center;
