@@ -162,8 +162,8 @@ button {
     height: 40%;
 }
 .carousel{
-    min-width: 45%;
-    max-width: 45%;
+    min-width: 50%;
+    max-width: 50%;
     object-fit: cover;
     position: relative;
     display: flex;
