@@ -239,13 +239,13 @@ button {
 }
 
 .parrafo01{
-    display: block;
-    align-items: center;
-    position: relative;
-    text-align: center;
-    justify-content: center;
     width: 80%;
     height: auto;
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 .titlep{
