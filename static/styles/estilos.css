@@ -131,13 +131,9 @@ button {
     
 }
 /* carrusel____________________________________________________________________*/
-.carousel-inner{
-    width: 60%;
-    height: 40%;
-}
 .carousel{
-    min-width: 50%;
-    max-width: 50%;
+    min-width: 35%;
+    max-width: 35%;
     object-fit: cover;
     position: relative;
     display: flex;
@@ -146,7 +142,10 @@ button {
 }
 .carousel-item {
     transition-duration: 0.5s;
+    width: 300px;
+    height: 300px;
 }
+
 /* presentacion ________________________________________________________________*/
 .containerpresent{
     width: 100%;
@@ -250,13 +249,16 @@ button {
     }
     .carousel{
         flex:1;
-        margin-bottom: 5%;
-        min-width: 70%;
+        margin: 5%;
+        min-width: 50%;
         
     }
     .title01{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .text-container {
+        
     }
 }
