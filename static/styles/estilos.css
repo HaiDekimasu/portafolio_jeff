@@ -234,7 +234,6 @@ button {
 }
 /* responsive_________________________________________________________________________________________*/
 @media (max-width: 768px) {
-    
     .containerproyect {
         flex-direction: column;
         height: auto;
@@ -242,8 +241,15 @@ button {
     .proyect{
         width: 50%;
     }
+}
+@media (max-width: 768px) {
     .present{
         flex-direction: column;
         height: auto;
+    }
+    .carousel{
+        flex:1;
+        margin: auto;
+        
     }
 }
