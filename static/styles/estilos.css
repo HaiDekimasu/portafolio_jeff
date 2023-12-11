@@ -243,13 +243,20 @@ button {
     }
 }
 @media (max-width: 768px) {
-    .present{
+    .Present{
         flex-direction: column;
         height: auto;
+        
     }
     .carousel{
         flex:1;
-        margin: auto;
+        margin-bottom: 5%;
+        min-width: 70%;
         
+    }
+    .title01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
