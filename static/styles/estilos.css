@@ -267,7 +267,10 @@ button {
         flex-direction: column;
         height: auto;
     }
-    .btn-11 {
+    .btn-11{
+        width: 70%;
+    }
+    .navredes{
         width: 70%;
     }
 }
