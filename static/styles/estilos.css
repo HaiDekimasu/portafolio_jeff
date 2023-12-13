@@ -263,11 +263,11 @@ button {
     }
 }
 @media (max-width: 768px) {
-    .containernav {
+    .frame {
         flex-direction: column;
         height: auto;
     }
-    .custom-btn {
+    .btn-11 {
         width: 70%;
     }
 }
