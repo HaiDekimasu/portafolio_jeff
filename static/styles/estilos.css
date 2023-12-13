@@ -20,13 +20,6 @@ a{
     align-items: center;
     width: 70%;
     height:3rem;
-    /*  background-color: #452cd44d; */
-}
-.containerredes{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    justify-content: space-evenly;
 }
 .navredes{
     width: 25%;
@@ -276,10 +269,10 @@ button {
     .btn-11{
         width: 70%;
     }
-    .containerredes{
-        display: flex;
-        align-items: center;
+    .navredes{
         width: 70%;
         justify-content: space-evenly;
+        float: none;
+        align-items: center;
     }
 }
