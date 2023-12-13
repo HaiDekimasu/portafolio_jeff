@@ -259,6 +259,15 @@ button {
         align-items: center;
     }
     .text-container {
-        
+        word-wrap: break-word;
+    }
+}
+@media (max-width: 768px) {
+    .containernav {
+        flex-direction: column;
+        height: auto;
+    }
+    .custom-btn {
+        width: 70%;
     }
 }
