@@ -250,7 +250,7 @@ button {
         flex:1;
         margin: 5%;
         min-width: 50%;
-        
+        max-width: 70%;
     }
     .title01{
         display: flex;
@@ -271,8 +271,52 @@ button {
     }
     .navredes{
         width: 70%;
+        display: flex;
         justify-content: space-evenly;
-        float: none;
         align-items: center;
+        float: none;
+    }
+    .kedin{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .tik{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .you{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .kedin:hover{
+        width: 26%;
+        height: 80%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+    }
+    .you:hover{
+        width: 27%;
+        height: 90%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+    }
+    .tik:hover{
+        width: 27%;
+        height: 90%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+        
     }
 }
