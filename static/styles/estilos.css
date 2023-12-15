@@ -237,6 +237,24 @@ button {
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+    .Present{
+        flex-direction: column;
+        height: auto;
+    }
+    .carousel{
+        flex:1;
+        margin: 5%;
+        min-width: 50%;
+        max-width: 70%;
+    }
+    .title01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container {
+        word-wrap: break-word;
+    }
     .frame {
         flex-direction: column;
         height: auto;
@@ -294,6 +312,13 @@ button {
         border-radius: 15%;
         
     }
+    .proyect {
+        margin: 2%;
+        width: 30%;
+        }
+    .proyect:hover {
+        width: 40%;
+        }
 }
 
 @media (min-width: 480px) and (max-width: 768px) {
