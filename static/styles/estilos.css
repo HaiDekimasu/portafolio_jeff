@@ -237,10 +237,10 @@ button {
         height: auto;
     }
     .proyect{
-        width: 70%;
+        width: 64%;
     }
     .proyect:hover{
-        width: 100%;
+        width: 68%;
     }
 }
 @media (max-width: 768px) {
