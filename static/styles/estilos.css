@@ -264,6 +264,98 @@ button {
         word-wrap: break-word;
     }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+    .frame {
+        flex-direction: column;
+        height: auto;
+    }
+    .btn-11{
+        width: 70%;
+    }
+    .navredes{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        float: none;
+    }
+    .kedin{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .tik{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .you{
+        margin-left: 40%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        float: none;
+    }
+    .kedin:hover{
+        width: 26%;
+        height: 80%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+    }
+    .you:hover{
+        width: 27%;
+        height: 90%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+    }
+    .tik:hover{
+        width: 27%;
+        height: 90%;
+        background: rgba(255, 255, 255, 0.089);
+        border-radius: 15%;
+        
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .containerproyect {
+        flex-direction: column;
+        height: auto;
+    }
+    .proyect{
+        width: 65%;
+    }
+    .proyect:hover{
+        width: 70%;
+    }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+    .Present{
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .carousel{
+        flex:1;
+        margin: 5%;
+        min-width: 50%;
+        max-width: 70%;
+    }
+    .title01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-container {
+        word-wrap: break-word;
+    }
+}
 @media (min-width: 480px) and (max-width: 768px) {
     .frame {
         flex-direction: column;
