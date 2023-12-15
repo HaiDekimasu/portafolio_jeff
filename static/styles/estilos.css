@@ -239,6 +239,9 @@ button {
     .proyect{
         width: 50%;
     }
+    .proyect:hover{
+        width: 90%;
+    }
 }
 @media (max-width: 768px) {
     .Present{
