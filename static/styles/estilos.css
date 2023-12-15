@@ -231,37 +231,9 @@ button {
     list-style: none;
 }
 /* responsive_________________________________________________________________________________________*/
-@media (min-width: 480px) and (max-width: 768px) {
-    .containerproyect {
-        flex-direction: column;
-        height: auto;
-    }
+@media (min-width: 992px) and (max-width: 1024px){
     .proyect{
-        width: 65%;
-    }
-    .proyect:hover{
-        width: 70%;
-    }
-}
-@media (min-width: 480px) and (max-width: 768px) {
-    .Present{
-        flex-direction: column;
-        height: auto;
-        
-    }
-    .carousel{
-        flex:1;
-        margin: 5%;
-        min-width: 50%;
-        max-width: 70%;
-    }
-    .title01{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .text-container {
-        word-wrap: break-word;
+        margin: 3rem;
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -323,6 +295,7 @@ button {
         
     }
 }
+
 @media (min-width: 480px) and (max-width: 768px) {
     .containerproyect {
         flex-direction: column;
@@ -334,8 +307,6 @@ button {
     .proyect:hover{
         width: 70%;
     }
-}
-@media (min-width: 480px) and (max-width: 768px) {
     .Present{
         flex-direction: column;
         height: auto;
@@ -355,8 +326,7 @@ button {
     .text-container {
         word-wrap: break-word;
     }
-}
-@media (min-width: 480px) and (max-width: 768px) {
+    
     .frame {
         flex-direction: column;
         height: auto;
@@ -427,7 +397,7 @@ button {
     width: 50%;
     }
 }
-@media (max-width: 375px) {
+@media (min-width: 200px) and (max-width: 375px) {
     .containerproyect {
     flex-direction: column;
     height: auto;
