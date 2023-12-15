@@ -237,10 +237,10 @@ button {
         height: auto;
     }
     .proyect{
-        width: 64%;
+        width: 65%;
     }
     .proyect:hover{
-        width: 68%;
+        width: 70%;
     }
 }
 @media (max-width: 768px) {
@@ -321,5 +321,17 @@ button {
         background: rgba(255, 255, 255, 0.089);
         border-radius: 15%;
         
+    }
+}
+@media (max-width: 480px) {
+    .containerproyect {
+    flex-direction: column;
+    height: auto;
+    }
+    .proyect {
+    width: 40%;
+    }
+    .proyect:hover {
+    width: 50%;
     }
 }
