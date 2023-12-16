@@ -243,6 +243,7 @@ button {
     }
     .carousel{
         flex:1;
+        padding-left: 40px;
         margin: 5%;
         min-width: 50%;
         max-width: 70%;
@@ -317,7 +318,7 @@ button {
         width: 30%;
         }
     .proyect:hover {
-        width: 40%;
+        width: 30%;
         }
 }
 
@@ -419,7 +420,12 @@ button {
         width: 40%;
     }
     .proyect:hover {
-        width: 50%;
+        width: 42%;
+    }
+    .img01{
+        width: 150px;
+        height: 100px;
+        padding: 6px;
     }
     .Present{
         flex-direction: column;
