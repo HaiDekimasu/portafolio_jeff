@@ -211,6 +211,7 @@ button {
     position: relative;
     align-items: center;
     justify-content: center;
+    text-align: justify;
 }
 .titlep{
     position: relative;
@@ -421,7 +422,7 @@ button {
         width: 40%;
     }
     .proyect:hover {
-        width: 42%;
+        width: 50%;
     }
     .img01{
         width: 150px;
