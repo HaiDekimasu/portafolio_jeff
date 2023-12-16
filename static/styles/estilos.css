@@ -446,7 +446,7 @@ button {
         align-items: center;
         width: 25rem;
         padding: 3%;
-        text-align: justify;
+        text-align: center;
     }
     .text-container {
         width: 100vw;
