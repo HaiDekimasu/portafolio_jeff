@@ -224,6 +224,7 @@ button {
     padding: 10px;
 }
 .proyect:hover{
+    width: 28%;
     background-color:rgba(255, 255, 255, 0.089);
     border: solid rgba(255, 255, 255, 0.192);
     border-radius: 15%;
@@ -318,12 +319,17 @@ button {
         border-radius: 15%;
         
     }
+    .containerproyect {
+        flex-direction: column;
+        height: auto;
+    }
     .proyect {
+        columns: 2;
         margin: 2%;
         width: 30%;
         }
     .proyect:hover {
-        width: 30%;
+        width: 40%;
         }
 }
 
