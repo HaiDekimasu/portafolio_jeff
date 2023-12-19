@@ -249,7 +249,7 @@ button {
     }
     .carousel{
         flex:1;
-        padding-left: 40px;
+        padding-left: 20px;
         margin: 5%;
         min-width: 50%;
         max-width: 70%;
@@ -324,7 +324,7 @@ button {
         height: auto;
     }
     .proyect {
-        columns: 2;
+        columns: 1;
         margin: 2%;
         width: 30%;
         }
@@ -366,9 +366,7 @@ button {
         justify-content: center;
         align-items: center;
     }
-    .text-container {
-        word-wrap: break-word;
-    }
+    x
     
     .frame {
         flex-direction: column;
