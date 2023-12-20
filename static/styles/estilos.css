@@ -442,6 +442,9 @@ button {
         height: 100px;
         padding: 6px;
     }
+    .containerpresent{
+        margin-top: 20%;
+    }
     .Present{
         flex-direction: column;
         height: auto;
