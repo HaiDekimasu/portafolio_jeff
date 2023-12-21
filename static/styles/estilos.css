@@ -366,8 +366,6 @@ button {
         justify-content: center;
         align-items: center;
     }
-    
-    
     .frame {
         flex-direction: column;
         height: auto;
@@ -477,6 +475,7 @@ button {
         height: auto;
     }
     .btn-11{
+        columns: 1;
         width: 70%;
     }
     .navredes{
