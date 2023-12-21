@@ -29,3 +29,13 @@ class Imgpresent(models.Model):
     
     def __str__(self) -> str:
         return self.title
+    
+    
+    
+class Contacto(models.Model):
+    nombre = models.CharField( max_length=50)
+    correo = models.EmailField()
+    mensaje = models.TextField(max_length=300)
+    
+    def __str__(self) -> str:
+        return self.title
