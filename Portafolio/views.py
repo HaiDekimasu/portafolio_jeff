@@ -3,10 +3,10 @@ from .models import Projecto, Presentacion
 from .forms import Contactoform
 
 # Create your views here.
-def vporfolio(request):
-    proyecto = Projecto.objects.all()
-    presentaciones = Presentacion.objects.all()
-    return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones})
+# def vporfolio(request):
+#     proyecto = Projecto.objects.all()
+#     presentaciones = Presentacion.objects.all()
+#     return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones})
 
 
 def contacto(request):
