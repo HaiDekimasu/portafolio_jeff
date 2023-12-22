@@ -1,10 +1,14 @@
 {% extends "base.html" %}
-{% block content %}
+{% comment %} {% block content %}
 <form action ="" class="form-group row" method="post">
     {% csrf_token %}
-    
     {{ form }}
     <br>
     <button type="submit">Enviar</button>
 </form>
-{% endblock %}  
+{% endblock %}   {% endcomment %}
+{% block content %}
+
+<h1> hola formulario </h1>
+
+{% endblock content %}
