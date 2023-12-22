@@ -18,4 +18,4 @@ def contacto(request):
             data['mensaje'] = "Contacto Guardado"  
         else:
             data['form'] = formulario
-    return render(request, 'contacto.html',data)
+    return render(request, './partials/contacto.html',data)
