@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
-from .models import Projecto, Presentacion,Imgpresent
-
+from .models import Projecto, Presentacion,Imgpresent, Contacto
+from Portafolio.forms import Contactoform
 
 # Create your views here.
 def vporfolio(request):
@@ -9,3 +9,13 @@ def vporfolio(request):
     return render(request, 'Principal.html', {'proyecto': proyecto, 'presentaciones': presentaciones})
 
 
+def contacto(request):
+    data = {'form': Contactoform()}
+    if request.method == 'POST':
+        formulario = Contactoform(data=request.POST)
+        if request.method.is_valid():
+            formulario.save()
+            data['mensaje'] = "Contacto Guardado"  
+        else:
+            data['form'] = formulario
+    return render(request, 'contacto.html',data)
