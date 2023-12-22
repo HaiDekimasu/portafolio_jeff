@@ -9,7 +9,7 @@ def home(request, Projecto_id=None):
     
     return render(request, 'Principal.html', {'projectos': projectos, 'presentaciones': presentaciones,'imgs': imgs})
 
-def contacto(request):
+def Contacto(request):
     data = {'form': Contactoform()}
     if request.method == 'POST':
         formulario = Contactoform(data=request.POST)

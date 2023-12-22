@@ -36,6 +36,7 @@ class Contacto(models.Model):
     nombre = models.CharField( max_length=50)
     correo = models.EmailField()
     mensaje = models.TextField(max_length=300)
+    id = models.AutoField(primary_key=True)
     
     def __str__(self) -> str:
-        return self.title
+        return self.nombre
