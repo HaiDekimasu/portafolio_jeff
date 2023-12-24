@@ -152,6 +152,7 @@ button {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 20%;
 }
 .Present{
     width: 80%;
@@ -170,8 +171,7 @@ button {
     align-items: flex-start;
 }
 .skill{
-    margin-top: 3%;
-    margin-bottom: 20%;
+    margin: 3%;
 }
 .title01{
     width: 30rem;
