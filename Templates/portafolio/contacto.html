@@ -2,18 +2,16 @@
 {% load static %}
 {% block content %}
 
-<form action ="" class="form-group" method="post">
+<form action =""  method="post">
     {% csrf_token %}
-    <input class="form-control" type="text" placeholder="Default input">{{ form.nombre }}
-    <input class="form-control" type="text" placeholder="Default input">{{ form.correo }}
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{ form.mensaje }}</textarea>
-    <br>
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <div class="form-group" style="with: 100%">
+        <input class="form-control" type="text" placeholder="Nombre" with="70%">{{ form.nombre }}</input>
+        <input class="form-control" type="email" placeholder="Correo@" with="70%">{{ form.correo }}</input>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" with="70%">{{ form.mensaje }}</textarea>
+        <br>
+        <button type="submit" class="btn btn-primary" with="70%">Enviar</button>
+    </div>
 </form>
-
-
-
-<h1> hola formulario </h1>
 
 {% endblock content %}
 
