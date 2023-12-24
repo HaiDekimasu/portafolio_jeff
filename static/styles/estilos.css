@@ -468,9 +468,7 @@ button {
         height: 50vh;
         text-align: center;
     }
-    .skill{
-        margin: 3%;
-    }
+    
     .frame {
         flex-direction: column;
         height: auto;
