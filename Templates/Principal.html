@@ -20,6 +20,7 @@
                         <div class="text-container">
                             <h2 class="title01">{{ presentacion.title }}</h2>
                             <p class="title01">{{ presentacion.description }}</p>
+                            <p class="title01">{{ presentacion.sobre_mi }}</p>
                             <div class="skill">
                                 <img class="redesS" src="{% static "img/html5 - tabtag.jpg" %}">
                                 <img class="redesS" src="{% static "img/CSS3 - MI PORTAL.jpg" %}">
@@ -35,12 +36,12 @@
             {% endfor %}
                 <secction class="containerproyect">
                     {% for projecto in projectos %}
-                        <div class="proyect"> 
+                        <article class="proyect"> 
                             <a class="link5" href="{{ projecto.url }}">
                             <h2 class="titlep">{{ projecto.title }}</h2>
                             <p class="parrafo01">{{ projecto.description }}</p>
                             <img class="img01" src="{{ projecto.image.url }}"/></a>
-                        </div>
+                            </article>
                     {% endfor %}
                 </secction>
         {% endblock content %}
