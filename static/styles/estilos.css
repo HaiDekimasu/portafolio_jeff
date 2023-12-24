@@ -539,4 +539,36 @@ button {
     .proyect:hover {
     width: 40%;
     }
+    .img01{
+        width: 150px;
+        height: 100px;
+        padding: 6px;
+    }
+    .containerpresent{
+        margin-top: 20%;
+    }
+    .Present{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .carousel{
+        flex:1;
+        margin: 5%;
+        min-width: 50%;
+        max-width: 70%;
+    }
+    .title01{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+        padding: 3%;
+        text-align: justify;
+    }
+    .text-container {
+        width: 100vw;
+        height: 50vh;
+        text-align: center;
+    }
 }
