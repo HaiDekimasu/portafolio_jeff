@@ -241,10 +241,6 @@ button {
     margin-left: 5%;
     display: flow-root;
     width: 60%; 
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center;*/
 } 
 .form-control{
     flex: 1;
@@ -253,6 +249,15 @@ button {
 }
 footer{
     position: bottom 0; 
+}
+
+.btn-primary{
+    width: 70%;
+    margin-left: 15%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
