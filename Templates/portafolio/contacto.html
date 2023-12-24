@@ -4,9 +4,11 @@
 
 <form action ="" class="form-group" method="post">
     {% csrf_token %}
-    {{ form }}
+    <input class="form-control" type="text" placeholder="Default input">{{ form.nombre }}
+    <input class="form-control" type="text" placeholder="Default input">{{ form.correo }}
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{ form.mensaje }}</textarea>
     <br>
-    <button type="submit">Enviar</button>
+    <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 
 
