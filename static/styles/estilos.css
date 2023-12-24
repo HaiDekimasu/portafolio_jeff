@@ -236,13 +236,19 @@ button {
 }
 
 .form-group{
-    width: 70%;
+    /* margin-left: 5%;
+    display: flow-root; */
+    width: 70%; 
     flex-direction: column;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .form-control{
     flex: 1;
     margin-top: 5%;
+    width:70%;
 
 }
 /* responsive_________________________________________________________________________________________*/

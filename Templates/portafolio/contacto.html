@@ -5,9 +5,9 @@
 <form action =""  method="post">
     {% csrf_token %}
     <div class="form-group">
-        <input class="form-control" type="text" placeholder="Nombre">{{ form.nombre }}
-        <input class="form-control" type="email" placeholder="Correo@">{{ form.correo }}
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{ form.mensaje }}</textarea>
+        <input class="form-control" type="text" placeholder="Nombre">
+        <input class="form-control" type="email" placeholder="Correo@">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         <br>
         <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
