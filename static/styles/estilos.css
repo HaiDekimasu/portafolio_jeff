@@ -234,6 +234,17 @@ button {
 .link5{
     list-style: none;
 }
+
+.form-group{
+    width: 70%;
+    flex-direction: column;
+    height: auto;
+}
+.form-control{
+    flex: 1;
+    margin-top: 5%;
+
+}
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
     .proyect{

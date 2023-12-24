@@ -4,12 +4,12 @@
 
 <form action =""  method="post">
     {% csrf_token %}
-    <div class="form-group" style="with: 100%">
-        <input class="form-control" type="text" placeholder="Nombre" with="70%">{{ form.nombre }}</input>
-        <input class="form-control" type="email" placeholder="Correo@" with="70%">{{ form.correo }}</input>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" with="70%">{{ form.mensaje }}</textarea>
+    <div class="form-group">
+        <input class="form-control" type="text" placeholder="Nombre" >{{ form.nombre }}
+        <input class="form-control" type="email" placeholder="Correo@">{{ form.correo }}
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{ form.mensaje }}</textarea>
         <br>
-        <button type="submit" class="btn btn-primary" with="70%">Enviar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
 </form>
 
