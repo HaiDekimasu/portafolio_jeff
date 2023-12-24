@@ -14,7 +14,8 @@ class Projecto(models.Model):
 class Presentacion(models.Model):
     image = models.ImageField(upload_to="Portafolio/images/")
     title = models.CharField( max_length=100)
-    description = models.CharField(max_length=250)
+    description = models.CharField(max_length=500)
+    sobre_mi = models,models.CharField(max_length=500)
     id = models.AutoField(primary_key=True)
     
     
