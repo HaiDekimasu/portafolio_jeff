@@ -2,17 +2,15 @@
 {% load static %}
 {% block content %}
 
-<form action="{% url 'url_de_destino' %}" method="post">
+<form action =""  method="post">
     {% csrf_token %}
-    {% for field in form %}
-        <div class="form-group">
-            {{ form_widget(field) }}
-            {% for error in field.errors %}
-                <span class="text-danger">{{ error }}</span>
-            {% endfor %}
-        </div>
-    {% endfor %}
-    <button type="submit" class="btn btn-primary">Enviar</button>
+    <div class="form-group">
+        <input class="form-control" type="text" placeholder="Nombre">{{ form.nombre }}
+        <input class="form-control" type="email" placeholder="Correo@">{{ form.correo }}
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">{{ form.mensaje }}</textarea>
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
 </form>
 
 {% endblock content %}
