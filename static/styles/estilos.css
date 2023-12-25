@@ -145,11 +145,11 @@ button {
 /* presentacion ________________________________________________________________*/
 .containerpresent{
     width: 100%;
-    height:40rem;
+    height:30rem;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 .Present{
     width: 80%;
@@ -232,20 +232,22 @@ button {
 }
 .divcontac{
     width: 100%;
-    justify-content: center;
-    display: block;
-    flex-direction: column;
     height: auto;
+    display: flex;
+    
 }
 .form-group{
-    margin-left: 5%;
-    display: flow-root;
     width: 60%; 
+    margin-left: 5%;
+    flex-direction: column;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
 } 
 .form-control{
     flex: 1;
-    margin-top: 5%;
     width:70%;
+    margin-top: 5%;
 }
 footer{
     position: bottom 0; 
