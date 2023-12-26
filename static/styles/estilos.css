@@ -250,10 +250,6 @@ button {
     width:70%;
     margin-top: 5%;
 }
-footer{
-    position: bottom 0; 
-}
-
 .btn-primary{
     width: 70%;
     margin-left: 15%;
@@ -262,6 +258,13 @@ footer{
     text-align: center;
     justify-content: center;
 }
+footer{
+    position: bottom 0; 
+}
+.fboton :hover{
+    color:black;
+}
+
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
     .proyect{
