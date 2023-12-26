@@ -261,9 +261,7 @@ button {
 footer{
     position: bottom 0; 
 }
-.fboton :hover{
-    color:black;
-}
+
 
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
