@@ -1,4 +1,5 @@
-from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
+from django.shortcuts import render, get_object_or_404 
 from .models import Projecto, Presentacion
 from .forms import Contactoform
 
@@ -20,3 +21,13 @@ def contacto(request):
             data['form'] = formulario
     return render(request, 'portafolio/contacto.html',data)
     
+    
+def cv(request):
+    # Obtenemos el CV del archivo
+    cv = open("cv.pdf", "rb")
+
+    # Enviamos el CV al navegador
+    response = HttpResponse(cv, content_type="media/Portafolio/CV/CV.pdf")
+    response = response.as_attachment(filename="CV.pdf")
+
+    return response
