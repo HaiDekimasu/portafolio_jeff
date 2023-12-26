@@ -234,14 +234,14 @@ button {
     width: 100%;
     height: auto;
     display: flex;
+    justify-content: center;
     justify-items: center;
     
 }
 .form-group{
-    width: 60%; 
-    margin-left: 5%;
+    width: 70%; 
     flex-direction: column;
-    display: flow-root;
+    display: flex;
     align-items: center;
     justify-content: center;
 } 
@@ -252,7 +252,6 @@ button {
 }
 .btn-primary{
     width: 70%;
-    margin-left: 15%;
     align-items: center;
     display: flex;
     text-align: center;

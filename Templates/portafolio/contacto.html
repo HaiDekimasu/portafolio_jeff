@@ -1,6 +1,10 @@
 {% extends "layout/base.html" %}
 {% load static %}
 {% block content %}
+{% comment %} revision de estilos para formulario {% endcomment %}
+<style class="navredes" display="Grid" with="50%"> </style>
+
+<style class="frame" margin=" 0px 30%"> </style>
 
 <form class="divcontac" action =""  method="post">
     {% csrf_token %}
