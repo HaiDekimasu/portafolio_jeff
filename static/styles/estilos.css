@@ -236,7 +236,10 @@ button {
     display: flex;
     justify-content: center;
     justify-items: center;
-    
+}
+.form-control p{
+    display: grid;
+    width: 100%;
 }
 .formulario{
     width: 70%; 

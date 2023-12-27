@@ -1,12 +1,15 @@
 {% extends "layout/base.html" %}
 {% load static %}
 {% block content %}
-
-<form class="formulario" action="" method="post">
-    {% csrf_token %}
-    {{ form.as_p }}  
-    <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+<div class="divcontac">
+    <form class="formulario" action="" method="post">
+        <div class="form-control">
+        {% csrf_token %}
+        {{ form.as_p }}  
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
 {{ mensaje }}
 {% endblock content %}
 
