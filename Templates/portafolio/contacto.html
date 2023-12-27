@@ -1,23 +1,13 @@
 {% extends "layout/base.html" %}
 {% load static %}
 {% block content %}
-{% comment %} revision de estilos para formulario {% endcomment %}
-<style class="navredes" display="Grid" with="50%"> </style>
 
-<style class="frame" margin=" 0px 30%"> </style>
-
-<form class="divcontac" action =""  method="post">
+<form class="formulario" action="" method="post">
     {% csrf_token %}
-    <div class="form-group">
-        <input class="form-control" type="text" placeholder="Nombre">
-        <input class="form-control" type="email" placeholder="Correo@">
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        <br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-        
-    </div>
+    {{ form.as_p }}  
+    <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
-<h4>{{mensaje}}</h4>
+{{ mensaje }}
 {% endblock content %}
 
 
