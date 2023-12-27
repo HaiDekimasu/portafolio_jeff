@@ -1,13 +1,24 @@
 {% extends "layout/base.html" %}
 {% load static %}
 {% block content %}
-
-<form class="formulario" action="" method="post">
+{% load crispy_forms_tags %}
+{% load crispy_forms_field %}
+<form class="divcontac" action="" method="post">
     {% csrf_token %}
-    {{ form.as_p }}  
+    <div class="form-group">
+        {{ form.nombre.label_tag }}  {{ form.nombre|as_crispy_field }} </div>
+    <div class="form-group">
+        {{ form.correo.label_tag }}
+        {{ form.correo|as_crispy_field }}
+    </div>
+    <div class="form-group">
+        {{ form.mensaje.label_tag }}
+        {{ form.mensaje|as_crispy_field }}
+    </div>
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 {{ mensaje }}
+
 {% endblock content %}
 
 
