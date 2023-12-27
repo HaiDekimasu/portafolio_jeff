@@ -238,7 +238,7 @@ button {
     justify-items: center;
     
 }
-.form-group{
+.formulario{
     width: 70%; 
     flex-direction: column;
     display: flex;
