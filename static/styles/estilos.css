@@ -16,8 +16,14 @@ a{
 .contanermdark{
     position: absolute;
     top: 10px;
-    left: 5px;
+    left: 10px;
 }
+.toggle-mode:hover{
+    height: 90%;
+    background: rgba(255, 255, 255, 0.089);
+    border-radius: 15%;
+}
+
 /* barra de navegacion______________________________________________________________________________*/
 .containernav{
     display: flex;
