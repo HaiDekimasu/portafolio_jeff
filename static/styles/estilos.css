@@ -12,7 +12,13 @@ a{
     text-decoration: none;
     color: white;
 }
-/* barra de navegacion_________________________________________________________*/
+/*cambio modo dark__________________________________________________________________________________*/
+.contanermdark{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+/* barra de navegacion______________________________________________________________________________*/
 .containernav{
     display: flex;
     justify-content: space-evenly;
