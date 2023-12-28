@@ -237,7 +237,6 @@ button {
     justify-content: center;
     justify-items: center;
 }
-
 .formulario{
     width: 50%; 
     flex-direction: column;
@@ -251,7 +250,6 @@ button {
     margin-top: 5%;
     
 } 
-
 .btn-primary{
     width: 70%;
     align-items: center;
@@ -262,8 +260,6 @@ button {
 footer{
     position: bottom 0; 
 }
-
-
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
     .proyect{
