@@ -237,10 +237,7 @@ button {
     justify-content: center;
     justify-items: center;
 }
-.form-control p{
-    display: grid;
-    width: 100%;
-}
+
 .formulario{
     width: 70%; 
     flex-direction: column;
@@ -252,9 +249,9 @@ button {
     flex: 1;
     width:70%;
     margin-top: 5%;
-}
+} 
 .btn-primary{
-    width: 70%;
+    width: 90%;
     align-items: center;
     display: flex;
     text-align: center;
