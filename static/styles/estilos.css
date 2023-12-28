@@ -244,6 +244,9 @@ button {
     list-style: none;
 }
 /*footer__________________________________________________________________________________________________________*/
+footer{
+    position: bottom 0; 
+}
 .btncontac{
     width: auto;
 }
@@ -254,7 +257,7 @@ button {
     border-radius: 15%;
     border-width: 1px;
 }
-
+/* Formulario de Contacto__________________________________________________________________________________________*/
 .divcontac{
     width: 100%;
     height: auto;
@@ -281,9 +284,6 @@ button {
     display: flex;
     text-align: center;
     justify-content: center;
-}
-footer{
-    position: bottom 0; 
 }
 /* responsive_________________________________________________________________________________________*/
 @media (min-width: 992px) and (max-width: 1024px){
