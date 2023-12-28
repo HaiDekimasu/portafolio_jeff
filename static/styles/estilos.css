@@ -19,7 +19,8 @@ a{
     left: 10px;
 }
 .toggle-mode:hover{
-    height: 90%;
+    width: 150%;
+    height: 200%;
     background: rgba(255, 255, 255, 0.089);
     border-radius: 15%;
 }
