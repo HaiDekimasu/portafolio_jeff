@@ -248,13 +248,13 @@ footer{
     position: bottom 0; 
 }
 .btncontac{
-    width: auto;
+    width: 10%;
 }
 .btncontac:hover{
-    width: 25%;
+    width: 12%;
     background-color:rgba(255, 255, 255, 0.089);
     border: solid rgba(255, 255, 255, 0.192);
-    border-radius: 15%;
+    border-radius: 40%;
     border-width: 1px;
 }
 /* Formulario de Contacto__________________________________________________________________________________________*/
