@@ -6,7 +6,3 @@ def vblog(request):
     posts = post.objects.all()
     
     return render(request, 'blog/blog.html',{'posts': posts})
-
-def detail(request):
-    
-    return render(request, 'detail.html', {})
