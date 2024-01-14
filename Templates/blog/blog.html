@@ -4,7 +4,7 @@
 <html>
         {% block content %}
     <container class="contenido">
-        <div>
+        <div class="containerarticle">
             {% for post in posts %}
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
@@ -14,7 +14,6 @@
                         <div class="col-md-8">
                             <div class="card-body">
                                 <h1> {{post.title}}</h1>
-                                <p class="card-tex">{{ post.description }}</p>
                                 <p class="card-tex">{{ post.description }}</p>
                                 <p class="card-tex">{{ post.habilit }}</p>
                             </div>
