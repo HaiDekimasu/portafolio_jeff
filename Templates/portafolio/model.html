@@ -1,28 +1,22 @@
+{% extends 'layout/base.html' %}
 {% load static %}
-
-<head>
-    
-</head>
-<body>
-    <div class="modal fade" id="mimodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Formulario de Contacto Enviado!!!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+{% block content %}
+    <container class="contenido">
+        <div class="containerarticle">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="cen col-md-4">
+                        <img class="img-fluid rounded-start" src="/media/img/jeff_developer.png"/>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h1 class="titleB"> Formulario de contacto enviado!!!</h1>
+                            <p class="card-tex">Gracia por contactarme en 24 horas tendras una respuesta!!!</p>
+                            <p class="card-tex2">Saludos!!!</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="modal-body">
-            <p>Gracias Por comunicarte conmigo en 24 Horas tendras una respuesta!!!</p>
-            <p>Saludos.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
         </div>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
-</body>
+    </container>
+{% endblock  %}
