@@ -21,4 +21,4 @@ def contacto(request):
     return render(request, 'portafolio/contacto.html',data)
     
 def model(request):
-    return render(request, 'portafolio/model.html')
+    return render(request, 'portafolio/model.html',{})

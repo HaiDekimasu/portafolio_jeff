@@ -2,13 +2,14 @@
 {% load static %}
 {% block content %}
 <div class="divcontac">
-    <form class="formulario" action="" method="post">
+    <form class="formulario" action="{% url 'model' %}" method="post">
         <div class="form-control">
         {% csrf_token %}
         {{ form.as_p }}  
         </div>
-        <button type="submit" href="{% url 'model'  %}"class="btn btn-primary">Enviar</button>
+        <button type="submit" data-toggle="modal" data-target="#mimodal" class="btn btn-primary">Enviar</button>
     </form>
+    <div class="modal" tabindex="-1" role="dialog" id="mimodal">
 </div>
 {{ mensaje }}
 {% endblock content %}
