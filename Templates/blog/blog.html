@@ -1,15 +1,25 @@
 {% extends 'layout/base.html' %}
+{% load static %}
 <!DOCTYPE html>
-
 <html>
         {% block content %}
     <container class="contenido">
-        <div>
-            <h1>blog</h1>
-        </div>
-        <div>
+        <div class="containerarticle">
             {% for post in posts %}
-                <h1> {{post.date}}</h1>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="cen col-md-4">
+                            <img class="img-fluid rounded-start" src="{{ post.image.url }}"/>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h1 class="titleB"> {{post.title}}</h1>
+                                <p class="card-tex">{{ post.description }}</p>
+                                <p class="card-tex2">{{ post.habilit }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             {% endfor %}
         </div>
     </container>

@@ -20,3 +20,5 @@ def contacto(request):
             data['form'] = formulario
     return render(request, 'portafolio/contacto.html',data)
     
+def model(request):
+    return render(request, 'portafolio/model.html',{})
