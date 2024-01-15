@@ -6,7 +6,7 @@
 /*general__________________________________________________________________________________________*/
 body{
     min-height: 100vh;  
-    background-color: linear-gradient(to right, rgba(3, 0, 20, 0.945), rgba(0, 12, 30, 0.945), rgba(0, 25, 40, 0.945));
+    background-image: linear-gradient( rgba(3, 0, 20, 0.945), rgb(13 5 110 / 95%), rgba(3, 0, 20, 0.945) );
 }
 a{
     text-decoration: none;
@@ -208,6 +208,7 @@ button {
     position: relative;
     display: block;
     width: 25%;
+    height: 25rem;
     margin: 4rem;
     padding: 2% 0%;
     color: white;
@@ -216,12 +217,11 @@ button {
 }
 .parrafo01{
     width: 80%;
-    height: auto;
+    height: 6rem;
     display: inline-flex;
     position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: justify;
 }
 .titlep{
     position: relative;
@@ -247,31 +247,43 @@ button {
 
 /*blog____________________________________________________________________________________________________________*/
 .contenido{
-    background-color: linear-gradient(to right, rgba(3, 0, 20, 0.945), rgba(0, 12, 30, 0.945), rgba(0, 25, 40, 0.945));
     width: 100%;
-    margin-top: 8%;
+    margin-top: 3%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.cen{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.img-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    height: 80%;
+.containerarticle{
+    display: contents;
 }
 .card{
-    max-width: 70%;
+    margin-bottom: 3%;
+    color: white;
+    box-shadow: 0 0 8px #ccc;
+    max-width: 95%;
+    display: flex;
+    background-image: linear-gradient( rgba(3, 0, 20, 0.945), rgb(13 5 110 / 95%), rgba(3, 0, 20, 0.945) );
 }
+.img-fluid {
+    margin: 4% 2%;
+    max-width: 100%;
+    height: 90%;
+}
+.titleB{
+    text-align: center;
+}
+.card-tex{
+    text-align: justify;
+    width: 98%;
+    margin-left: 2%;
+}
+.card-tex2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
 /*footer__________________________________________________________________________________________________________*/
 footer{
     position: bottom 0; 
