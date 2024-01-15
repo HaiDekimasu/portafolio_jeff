@@ -1,15 +1,14 @@
 {% extends 'layout/base.html' %}
 {% load static %}
 <!DOCTYPE html>
-
 <html>
         {% block content %}
     <container class="contenido">
         <div class="containerarticle">
             {% for post in posts %}
-                <div class="card mb-3" style="max-width: 540px;">
+                <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="cen col-md-4">
                             <img class="img-fluid rounded-start" src="{{ post.image.url }}"/>
                         </div>
                         <div class="col-md-8">
