@@ -232,6 +232,7 @@ button {
     width: 250px;
     height: 150px;
     padding: 10px;
+    box-shadow: 0 0 8px #ccc;
 }
 .proyect:hover{
     width: 25%;
