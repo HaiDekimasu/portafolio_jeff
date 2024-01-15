@@ -6,7 +6,7 @@
 /*general__________________________________________________________________________________________*/
 body{
     min-height: 100vh;  
-    background-color: rgba(3, 0, 20, 0.945);
+    background-color: linear-gradient(to right, rgba(3, 0, 20, 0.945), rgba(0, 12, 30, 0.945), rgba(0, 25, 40, 0.945));
 }
 a{
     text-decoration: none;
