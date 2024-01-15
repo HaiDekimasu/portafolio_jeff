@@ -7,7 +7,7 @@
         {% csrf_token %}
         {{ form.as_p }}  
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" href="{% url 'model'  %}"class="btn btn-primary">Enviar</button>
     </form>
 </div>
 {{ mensaje }}
