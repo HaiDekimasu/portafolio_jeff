@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-tve)myl(pw212o6vbqi@oity-#cd1&f)y8f7hhjo!62^ge1ktz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['jcadevporfolio.pythonanywhere.com','localhost', '127.0.0.1']
 
@@ -122,7 +122,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')  # Replace BASE_DIR with your project's base directory
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # Replace BASE_DIR with your project's base directory
+STATICFILES_DIRS = [BASE_DIR / "static", ]
+STATIC_ROOT = BASE_DIR / "staticfiles"# Replace BASE_DIR with your project's base directory
 
 
 # Default primary key field type
